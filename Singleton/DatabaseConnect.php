@@ -18,6 +18,7 @@ class Database extends Singleton {
     }
 }
 
+
 $database = Database::instance();
 $database->setLabel('Angel');
 echo $database->getLabel();
